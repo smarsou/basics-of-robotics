@@ -1,0 +1,5 @@
+rosrun labus move_robot.py
+roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch limited:=true
+roslaunch ur_robot_driver ur5_bringup.launch robot_ip:=192.168.22.14 kinematics_config:=/home/soulaiman/.ros/my_robot_calibration.yaml
+rosrun robotiq_3f_gripper_control Robotiq3FGripperTcpNode.py 192.168.22.11
+source devel/setup.bash

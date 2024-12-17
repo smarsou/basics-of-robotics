@@ -1,0 +1,5 @@
+PROGRAM:
+
+1. fja: move (x, y, z) u odnosu na bazu
+2. fja: open gripper
+3. fja: close gripper
